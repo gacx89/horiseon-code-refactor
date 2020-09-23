@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Navigation section styling begin */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,10 +43,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Navigation section styling end */
+
 
 p {
     font-size: 16px;
