@@ -12,6 +12,7 @@ p {
     font-size: 16px;
 }
 
+
 /* Navigation section styling begin */
 
 header {
@@ -54,7 +55,7 @@ header a {
 
 /* Navigation section styling end */
 
-/* Hero / jumbotron styling */
+/* Hero / jumbotron styling begin */
 
 .hero {
     height: 800px;
@@ -65,15 +66,8 @@ header a {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/* Hero / jumbotron styling end */
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 /* What we do section styling begin */
 
@@ -101,6 +95,18 @@ header a {
     font-size: 36px;
 }
 
+/* Utility classes for floating images*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* What we do section styling end */
 
 
@@ -125,7 +131,7 @@ header a {
 .benefits h2 {
     margin-bottom: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 18.72px;
 }
 
 
@@ -135,17 +141,21 @@ header a {
     max-width: 150px;
 }
 
-
 /* Benefits section styling end */
 
 
-.footer {
+/* Footer styling begin */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+
+/* Footer styling end */
+
